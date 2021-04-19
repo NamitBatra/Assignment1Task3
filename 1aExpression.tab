@@ -1,0 +1,5 @@
+cat Express.tab
+echo -e "gene \texpr_value" > Express1.tab
+cat Express.tab >> Express1.tab 
+cat Express1.tab
+head -n -1 Express1.tab > Express2.tab
