@@ -1,0 +1,5 @@
+cat Annotate.tab
+echo -e “ gene \tfunction \tmetabolism” > Annotate1.tab
+cat Annotate.tab >> Annotate1.tab
+cat Annotate1.tab
+head -n -1 Annotate1.tab > Annotate2.tab
