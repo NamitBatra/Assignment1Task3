@@ -1,0 +1,1 @@
+ii)	select distinct e.MemberID, m.FirstName, m.LastName from ((Entry e inner join Entry e1 on e.MemberID=e1.MemberID) inner join Entry e2 on e1.MemberID=e2.MemberID)inner join Member m on e.MemberID= m.MemberID where e.Year=2013 and e1.Year=2014 and e2.Year=2015;
