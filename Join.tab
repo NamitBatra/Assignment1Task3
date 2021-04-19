@@ -1,5 +1,0 @@
-head -1 Express2.tab > Express3.tab
-tail -n +2 Express2.tab | sort -t$’\t’ -k 1 >> Express3.tab
-head -1 Annotate2.tab > Annotate3.tab
-tail -n +2 Annotate2.tab | sort -t$’\t’ -k 1 >> Annotate3.tab
-join -t$’\t’ -o 1.1,2.2,1.2,2.3 Express3.tab Annotate3.tab
